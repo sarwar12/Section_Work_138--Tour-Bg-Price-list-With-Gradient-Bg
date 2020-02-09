@@ -1,0 +1,4 @@
+### Gradient Transparent Colorzilla:
+	https://www.colorzilla.com/gradient-editor/
+
+	*) Chose Transparent Color And Copy Code

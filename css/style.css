@@ -1,0 +1,97 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body {
+	font-size: 16px;
+	color: #444;
+	font-family: ;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Custom font CSS start */
+@font-face{
+	font-family: asiyah;
+	src:url(../fonts/Asiyah_Script.ttf)
+}
+/* Custom font CSS Stop */
+/*== Tour Plan Section Start ==*/
+.section-padding {
+	background-image: url(../img/beach.jpg);
+	background-size: cover;
+	background-position: center top;
+	padding-top: 50px;
+	padding-bottom: 350px;
+}
+.section-padding h2 {
+  font-family: asiyah;
+  font-size: 50px;
+}
+.price-text {
+  font-size: 30px;
+  color: #d8075e;
+  font-weight: 700;
+}
+.boxed-btn {
+  background: #d8075e;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+/*== Tour Plan Section Stop ==*/
+/*== Price List Section Start ==*/
+.single-counter-item {
+  background: #fff;
+  box-shadow: 2px 4px 9px #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  margin: 5px;
+}
+.single-counter-item h2 {
+  color: #d8075e;
+  margin-bottom: 10px;
+}
+.single-counter-item i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.counter-section {
+	margin-top: -102px;
+	position: relative;
+	z-index: 2;
+}
+/*== Price List Section Stop ==*/
+/*== Colorzilla Gradient Start ==*/
+.section-padding {
+	position: relative;
+	z-index: 1;
+}
+.section-padding:after{
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+.section-padding:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60%;
+  width: 100%;
+  z-index: -1;
+}
+/*== Colorzilla Gradient  Stop ==*/
